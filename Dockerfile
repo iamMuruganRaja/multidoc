@@ -1,5 +1,5 @@
 # Stage 1: Build stage
-FROM python:3.11-slim-bullseye AS build
+FROM ubuntu:22.04 AS build
 
 WORKDIR /app
 
